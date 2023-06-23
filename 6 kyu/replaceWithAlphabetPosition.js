@@ -1,0 +1,1 @@
+let alphabetPosition = t => t.toLowerCase().split('').map(l => 'abcdefghijklmnopqrstuvwxyz'.indexOf(l)+1).filter(l => l != 0).join(' ');

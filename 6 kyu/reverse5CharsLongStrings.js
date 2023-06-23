@@ -1,0 +1,1 @@
+let spinWords = str => str.split(' ').reduce((a, c) => c.length >= 5 ? a + ' ' + c.split('').reverse().join('') : a + ' ' + c, '').replace(' ', '');
