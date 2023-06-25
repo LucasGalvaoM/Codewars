@@ -1,0 +1,1 @@
+sumDigits=n=>[...Math.abs(n)+''].reduce((a,c)=>+a+ +c,0)
