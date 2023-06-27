@@ -1,0 +1,1 @@
+const removeSmallest = n => n.filter((_, i) => n.indexOf(Math.min(...n)) !== i);
