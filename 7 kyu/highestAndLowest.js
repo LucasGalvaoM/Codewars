@@ -1,0 +1,1 @@
+const highAndLow = ns => `${Math.max(...ns.split(' '))} ${Math.min(...ns.split(' '))}`;
