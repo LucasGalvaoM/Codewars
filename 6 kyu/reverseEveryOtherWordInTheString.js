@@ -1,0 +1,1 @@
+const reverse = str => str.split(' ').map((s, i) => i % 2 !== 0 ? [...s.trim()].reverse().join('') : s).join(' ').trim();
