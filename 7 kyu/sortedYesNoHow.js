@@ -1,0 +1,1 @@
+const isSortedAndHow = arr => arr.every((n, i) => n === [...arr].sort((a, b) => a-b)[i]) ? 'yes, ascending' : arr.every((n, i) => n === [...arr].sort((a, b) => b-a)[i]) ? 'yes, descending' : 'no';
