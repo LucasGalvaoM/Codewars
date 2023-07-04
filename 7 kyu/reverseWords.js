@@ -1,0 +1,1 @@
+reverseWords=s=>s.split(' ').map(s =>[...s].reverse().join('')).join(' ')
