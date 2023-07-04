@@ -1,0 +1,1 @@
+arrCheck=a=>!a.some(v=>!Array.isArray(v))
