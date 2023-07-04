@@ -1,0 +1,1 @@
+sortme=a=>a.sort()
