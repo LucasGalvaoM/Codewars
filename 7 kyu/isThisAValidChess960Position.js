@@ -1,0 +1,1 @@
+const isValidChess960 = p => (p.indexOf('B') % 2 > p.lastIndexOf('B') % 2 || p.indexOf('B') % 2 < p.lastIndexOf('B') % 2) && (p.indexOf('K') > p.indexOf('R') && p.indexOf('K') < p.lastIndexOf('R'))
