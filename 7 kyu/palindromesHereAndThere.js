@@ -1,0 +1,1 @@
+convertPalindromes=n=>n.map(n=>n==[...(n+'')].reverse().join('')?1:0)
