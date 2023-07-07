@@ -1,0 +1,1 @@
+min=(a,s)=>s=='value'?Math.min(...a):a.indexOf(Math.min(...a))
