@@ -1,0 +1,1 @@
+wordsToSentence=s=>s.join(' ')
