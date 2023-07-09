@@ -1,0 +1,1 @@
+splitSentence=s=>s.split(' ')
