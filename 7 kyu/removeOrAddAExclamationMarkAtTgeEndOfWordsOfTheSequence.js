@@ -1,0 +1,1 @@
+const removeOrAdd = str => str.split(' ').map(s => s.at(-1) === '!' ? s.at(-2) === '!' ? s : s.slice(0, -1) : s+'!').join(' ')
