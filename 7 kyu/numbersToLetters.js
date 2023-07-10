@@ -1,0 +1,1 @@
+switcher=x=>x.map(c=>"zyxwvutsrqponmlkjihgfedcba!? "[c-1]).join('')
