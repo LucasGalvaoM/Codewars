@@ -1,0 +1,1 @@
+evenChars=s=>s.length<2||s.length>100?'invalid string':[...s].filter((s,i)=>(i+1)%2===0)
