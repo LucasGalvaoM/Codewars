@@ -1,0 +1,1 @@
+const consonantCount = str => [...str.toLowerCase()].reduce((acc, val) => 'bcdfghjklmnpqrstvwxyz'.includes(val) ? acc+1 : acc, 0)
