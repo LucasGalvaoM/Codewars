@@ -1,0 +1,1 @@
+const getAverageAge = arr => Math.round(arr.reduce((acc, obj) => acc+obj.age, 0)/arr.length)
