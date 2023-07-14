@@ -1,0 +1,1 @@
+const filterString = str => +([...str].filter(c => +c === +c).join(''))
