@@ -1,0 +1,1 @@
+const bump = str => str.replaceAll('_', '').length > 15 ? 'Car Dead' : 'Woohoo!';
