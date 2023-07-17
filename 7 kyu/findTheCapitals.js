@@ -1,0 +1,1 @@
+const capitals = str => [...str].reduce((a, c, i) => c === c.toUpperCase() ? [...a, i] : a, []);
