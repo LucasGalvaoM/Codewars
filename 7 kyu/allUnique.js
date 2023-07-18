@@ -1,0 +1,1 @@
+hasUniqueChars=s=>new Set(s).size===s.length
