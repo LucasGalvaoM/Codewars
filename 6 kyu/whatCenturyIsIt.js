@@ -1,0 +1,1 @@
+whatCentury=n=>(a=n/1e2+.99|0)+(a>13&&[,'st','nd','rd'][a%10]||'th')
