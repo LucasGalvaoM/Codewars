@@ -1,0 +1,1 @@
+const isIntArray = arr => Array.isArray(arr) ? !arr.some(val => val !== ~~val) : false;
