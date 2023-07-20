@@ -1,0 +1,1 @@
+const solve = arr => arr.reduceRight((acc, val, i) => !acc.includes(val) ? [val, ...acc] : acc, [])
