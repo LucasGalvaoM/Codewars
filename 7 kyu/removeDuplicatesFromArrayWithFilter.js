@@ -1,0 +1,1 @@
+const unique = arr => arr.filter((n, i) => i === arr.indexOf(n))
