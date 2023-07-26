@@ -1,0 +1,1 @@
+const doubleEveryOther = arr => arr.map((n, i) => i % 2 === 0 ? n : n*2);
