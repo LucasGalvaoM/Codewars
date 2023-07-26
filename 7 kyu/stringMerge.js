@@ -1,0 +1,1 @@
+const stringMerge = (s, x, c) => s.slice(0, s.indexOf(c)) + x.slice(x.indexOf(c))
