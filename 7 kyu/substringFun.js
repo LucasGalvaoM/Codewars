@@ -1,0 +1,1 @@
+const nthChar = arr => arr.reduce((acc, val, i) => acc + val[i], '')
