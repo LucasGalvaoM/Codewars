@@ -1,0 +1,1 @@
+const longestWord = str => str.split(' ').reduceRight((acc, val) => val.length > acc.length ? val : acc, '')
