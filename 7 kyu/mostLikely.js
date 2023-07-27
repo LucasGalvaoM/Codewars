@@ -1,0 +1,1 @@
+const mostLikely = (a,b) => a.slice(0, a.indexOf(':'))/a.slice(a.indexOf(':')+1) > b.slice(0, b.indexOf(':'))/b.slice(b.indexOf(':')+1)
