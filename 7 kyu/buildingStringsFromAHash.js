@@ -1,0 +1,1 @@
+const solution = obj => Object.entries(obj).reduce((a, c, i, r) => i === r.length-1 ? a + `${c[0]} = ${c[1]}` : a + `${c[0]} = ${c[1]},`, '')
