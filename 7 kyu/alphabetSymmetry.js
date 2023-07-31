@@ -1,0 +1,1 @@
+const solve = arr => arr.map(str => [...str.toLowerCase()].reduce((a, c, i) => 'abcdefghijklmnopqrstuvwxyz'.indexOf(c) === i ? a + 1 : a, 0))
