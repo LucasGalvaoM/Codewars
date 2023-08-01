@@ -1,0 +1,1 @@
+const checkExam = (arr1, arr2, r=arr2.reduce((a, c, i) => arr1[i] === c ? a + 4 : c === '' ? a : a - 1, 0)) => r < 0 ? 0 : r
