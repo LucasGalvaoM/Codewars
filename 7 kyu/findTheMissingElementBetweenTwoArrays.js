@@ -4,4 +4,4 @@ function findMissing(arr1, arr2) {
         arr2.splice(arr2.indexOf(num), 1);
         return res;
     });
-}  
+}

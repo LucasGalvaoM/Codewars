@@ -1,0 +1,1 @@
+const sortList = (sortBy, arr) => arr.sort((a, b) => a[sortBy]-b[sortBy]);
