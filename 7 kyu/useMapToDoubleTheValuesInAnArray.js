@@ -1,0 +1,1 @@
+double=r=>r.map(n=>n*2)
