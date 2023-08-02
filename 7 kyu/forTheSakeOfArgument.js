@@ -1,0 +1,1 @@
+const numbers = (...arr) => arr.every(val => typeof val === 'number')
