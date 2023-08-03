@@ -1,0 +1,1 @@
+const rowWeights = r => r.reduce((a, c, i) => i % 2 ? [a[0], a[1]+c] : [a[0]+c, a[1]], [0, 0])
