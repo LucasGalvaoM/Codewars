@@ -1,0 +1,1 @@
+smallEnough=(r,x)=>r.every(n=>n<=x)
