@@ -1,0 +1,1 @@
+likeOrDislike=r=>r.reduce((a,c)=>c===a?'Nothing':c,'Nothing')
