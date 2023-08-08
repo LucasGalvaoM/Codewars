@@ -1,0 +1,1 @@
+adjacentElementsProduct=r=>r.reduce((a,c,i)=>c*r[i+1]>a?c*r[i+1]:a,-Infinity)
