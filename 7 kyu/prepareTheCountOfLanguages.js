@@ -1,0 +1,1 @@
+const countLanguages = arr => arr.reduce((acc, obj) => acc[obj.language] ? (acc[obj.language]++, acc) :  (acc[obj.language] = 1, acc), { })
