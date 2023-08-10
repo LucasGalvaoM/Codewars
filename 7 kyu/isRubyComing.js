@@ -1,0 +1,1 @@
+const isRubyComing = arr => arr.some(obj => obj.language === 'Ruby')
