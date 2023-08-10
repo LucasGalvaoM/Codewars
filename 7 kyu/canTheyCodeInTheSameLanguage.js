@@ -1,0 +1,1 @@
+const isSameLanguage = arr => arr.every(obj => obj.language === arr[0].language);
