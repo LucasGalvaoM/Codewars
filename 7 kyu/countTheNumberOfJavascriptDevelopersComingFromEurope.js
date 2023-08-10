@@ -1,0 +1,1 @@
+const countDevelopers=r=>r.reduce((a,c)=>c.language==='JavaScript'&&c.continent==='Europe'?a+1:a,0)
