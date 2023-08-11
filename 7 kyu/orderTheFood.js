@@ -1,0 +1,1 @@
+const orderFood = arr => arr.reduce((acc, obj) => (acc[obj.meal] = (acc[obj.meal] || 0) + 1, acc), { })
