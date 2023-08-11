@@ -1,0 +1,1 @@
+const findAdmin = (arr, lang) => arr.filter(obj => obj.language === lang && obj.githubAdmin === 'yes')
