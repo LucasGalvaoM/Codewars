@@ -1,0 +1,1 @@
+const findOddNames = arr => arr.filter(obj => [...obj.firstName].reduce((acc, val) => acc+val.charCodeAt(), 0) % 2 !== 0)
