@@ -1,0 +1,1 @@
+const solve = arr => arr.find(n => !arr.includes(-n))
