@@ -1,0 +1,1 @@
+const alphanumeric = s => /^[a-zA-Z0-9]+$/.test(s)
