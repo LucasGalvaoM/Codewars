@@ -1,0 +1,1 @@
+const bingo = (arr, num) => arr.reduce((count, subarr) => [...subarr[0]].some(char => char.charCodeAt() === subarr[1]) ? count+1 : count, 0) >= num ? 'Winner!' : 'Loser!';
