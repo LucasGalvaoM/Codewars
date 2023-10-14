@@ -1,3 +1,5 @@
+// Pseudo Code:
+
 // create an "odds" array to hold all odd numbers
 // create an "evens" array to hold all even numbers
 // iterate through the every element in the array
@@ -11,6 +13,7 @@
 // return the first and only element in the evens array if the length of odds is
 // greater than the evens array
 // return the first and only element in the odds array otherwise.
+
 function findOutlier(arr){
   const odds = [];
   const evens = [];
